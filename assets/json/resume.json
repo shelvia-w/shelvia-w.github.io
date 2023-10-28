@@ -58,14 +58,5 @@
       "fluency": "Native speaker"
     } 
   ]
-  // "interests": [
-  //   {
-  //     "name": "Topics",
-  //     "keywords": ["Artificial Intelligence", "Particle Physics", "Neuroscience", "Cosmology"]
-  //   },
-  //   {
-  //     "name": "Hobbies",
-  //     "keywords": ["Reading", "Journalling", "PC Games", "Football", "Anime"]
-  //   }
-  // ]
+
 }
