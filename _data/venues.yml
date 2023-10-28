@@ -1,6 +1,8 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"AISTATS":
+  color: "#00369F"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ISIT":
+  color: "#00369F"
+
+"Oral":
+  color: "#C70039"
