@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Art
-permalink: /art/
-description: A collection of my journalling artwork.
+title: Projects
+permalink: /projects/
+description: A collection of my fun projects.
 nav: true
 nav_order: 4
 display_categories:
