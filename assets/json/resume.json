@@ -31,7 +31,15 @@
       "studyType": "PhD",
       "startDate": "2019",
       "endDate": "2024",
-      "score": ""}
+      "score": ""},
+    {
+      "institution": "Nanyang Technological University",
+      "area": "Theoretical Physics",
+      "studyType": "BSc (First Class Honours)",
+      "startDate": "2014",
+      "endDate": "2018",
+      "score": ""
+    }
 
   ],
   "skills": [
