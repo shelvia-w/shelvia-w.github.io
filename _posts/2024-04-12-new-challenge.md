@@ -2,7 +2,7 @@
 layout: post
 title: New Challenge
 date: 2024-04-12
-description: A new challenge I set up for myself.
+description: 🎯 <b><i> A new challenge I set up for myself. </b></i>
 tags: challenge, reading, coding
 categories: challenge
 ---
