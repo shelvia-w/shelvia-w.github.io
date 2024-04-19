@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Think Clearly?
-date: 2024-04-20
+date: 2024-04-19
 description: Why we are unable to express our ideas or thoughts clearly...
 tags: advice, work, motivation
 categories: advice
