@@ -31,7 +31,7 @@ Total books read: 12 (not including the ones I did not finish)
 ✏️ Author: Tillie Cole \\
 📅 Published date: 15 March 2016 \\
 📚 Genres: Romance, Young Adult \\
-📅 Dates read: 21 December 2023 - 10 January 2024 \\
+📅 Dates read: 11 January 2024 - 29 January 2024 \\
 ⭐ My rating: 3/5 \\
 📝 Comments: I came to know about this book from BookTok, but perhaps I'm just too old for young, sweet romance. The story was sad and beautiful though. \\
 💬 Quotes:
