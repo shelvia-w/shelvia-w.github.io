@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-description: A collection of my fun projects (coming soon).
+title: Collections
+permalink: /collections/
+description: A collection of my favourites.
 nav: true
 nav_order: 4
 display_categories:
