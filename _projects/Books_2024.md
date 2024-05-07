@@ -18,6 +18,7 @@ Total books read: 12 (not including the ones I did not finish)
 📅 Published date: 29 March 2022 \\
 📚 Genres: Mystery, Thriller \\
 📅 Dates read: 21 December 2023 - 10 January 2024 \\
+💻 Format: E-book
 ⭐ My rating: 4/5
 
 📝 Comments: The story-telling style is very interesting and I really enjoyed this book. The plot twist was alright, sufficient hints were scattered around the book. But I wasn't a big fan of the ending.
@@ -34,6 +35,7 @@ Total books read: 12 (not including the ones I did not finish)
 📅 Published date: 15 March 2016 \\
 📚 Genres: Romance, Young Adult \\
 📅 Dates read: 11 January 2024 - 29 January 2024 \\
+💻 Format: E-book
 ⭐ My rating: 3/5
 
 📝 Comments: I came to know about this book from BookTok, but perhaps I'm just too old for young, sweet romance. The story was sad and beautiful though.
@@ -50,6 +52,7 @@ Total books read: 12 (not including the ones I did not finish)
 📅 Published date: 29 November 2022 \\
 📚 Genres: Mystery, Thriller, Young Adult \\
 📅 Dates read: 30 January 2024 - 5 February 2024 \\
+💻 Format: E-book
 ⭐ My rating: 4/5
 
 📝 Comments: Although the story line was simple and predictable, it was very fast-paced. This is why I love Holly Jackson's books, she knows how to keep you on your toes!
