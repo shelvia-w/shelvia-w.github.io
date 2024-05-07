@@ -12,7 +12,7 @@ Total books read: 12 (not including the ones I did not finish)
 
 **1. [Everyone in My Family Has Killed Someone](https://www.goodreads.com/book/show/60879779-everyone-in-my-family-has-killed-someone?ac=1&from_search=true&qid=nxeKyaMwVx&rank=1)**
 
-<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1663127884i/60879779.jpg">
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1663127884i/60879779.jpg", width="258", height="400">
 
 ✏️ Author: Benjamin Stevenson \\
 📅 Published date: 29 March 2022 \\
@@ -26,7 +26,7 @@ Total books read: 12 (not including the ones I did not finish)
 
 **2. [A Thousand Boy Kisses](https://www.goodreads.com/book/show/25912358-a-thousand-boy-kisses?from_search=true&from_srp=true&qid=LBC4MvVyvI&rank=1)**
 
-<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1453299050i/25912358.jpg">
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1453299050i/25912358.jpg", width="258", height="400">
 
 ✏️ Author: Tillie Cole \\
 📅 Published date: 15 March 2016 \\
@@ -40,7 +40,7 @@ Total books read: 12 (not including the ones I did not finish)
 
 **3. [Five Survive](https://www.goodreads.com/book/show/61313902-five-survive?from_search=true&from_srp=true&qid=fbw4OcDZTr&rank=1)**
 
-<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1664370443i/61313902.jpg">
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1664370443i/61313902.jpg", width="258", height="400">
 
 ✏️ Author: Holly Jackson \\
 📅 Published date: 29 November 2022 \\
