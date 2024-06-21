@@ -42,9 +42,9 @@ Here are some of my favourites:
 
 <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415428227i/20518872.jpg" width="258" height="400">
 
-✏️ Author: Holly Jackson \\
+✏️ Author: Liu Cixin \\
 📅 Published date: 1 May 2006 \\
-📚 Genres: Mystery, Thriller, Young Adult \\
+📚 Genres: Science Fiction \\
 📅 Dates read: 25 April 2024 - 6 May 2024 \\
 💻 Format: E-book \\
 ⭐ My rating: 5/5
