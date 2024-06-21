@@ -8,54 +8,45 @@ category: work
 related_publications: true
 ---
 
-Total books read: 12 (not including the ones I did not finish)
+Total books read: 23
 
-**1. [Everyone in My Family Has Killed Someone](https://www.goodreads.com/book/show/60879779-everyone-in-my-family-has-killed-someone?ac=1&from_search=true&qid=nxeKyaMwVx&rank=1)**
+Here are some of my favourites:
 
-<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1663127884i/60879779.jpg" width="258" height="400">
+**1. [The Worlds I See](https://www.goodreads.com/book/show/144405196-the-worlds-i-see)**
 
-✏️ Author: Benjamin Stevenson \\
-📅 Published date: 29 March 2022 \\
-📚 Genres: Mystery, Thriller \\
-📅 Dates read: 21 December 2023 - 10 January 2024 \\
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1682738725i/144405196.jpg" width="258" height="400">
+
+✏️ Author: Fei-Fei Li \\
+📅 Published date: 7 November 2023 \\
+📚 Genres: Science, Artificial Intelligence \\
+📅 Dates read: 13 February 2024 - 28 February 2024 \\
 💻 Format: E-book \\
 ⭐ My rating: 4/5
 
-📝 Comments: The story-telling style is very interesting and I really enjoyed this book. The plot twist was alright, sufficient hints were scattered around the book. But I wasn't a big fan of the ending.
+📝 Comment: I've always admired Fei-Fei Li as a researcher and I aspire to be like her. I am inspired by her story which was told beautifully in this book and love to see how her curiosity led her to pursue AI eventually. She faced all her struggles with a strong mind and willpower, which is very motivating to me.
 
-💬 Quotes:
-- Family is not whose blood runs in your veins, it's who you'd spill it for.
-- If a killer is ever revealed and your ‘percentage read’ isn’t at least in the high eighties, they cannot be the real killer; there is simply too much of the book still to be read.
+**2. [Outlive](https://www.goodreads.com/book/show/61153739-outlive)**
 
-**2. [A Thousand Boy Kisses](https://www.goodreads.com/book/show/25912358-a-thousand-boy-kisses?from_search=true&from_srp=true&qid=LBC4MvVyvI&rank=1)**
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700067079i/61153739.jpg" width="258" height="400">
 
-<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1453299050i/25912358.jpg" width="258" height="400">
-
-✏️ Author: Tillie Cole \\
-📅 Published date: 15 March 2016 \\
-📚 Genres: Romance, Young Adult \\
-📅 Dates read: 11 January 2024 - 29 January 2024 \\
+✏️ Author: Peter Attia, Bill Gifford \\
+📅 Published date: 28 March 2023 \\
+📚 Genres: Health \\
+📅 Dates read: 3 March 2024 - 26 March 2024 \\
 💻 Format: E-book \\
-⭐ My rating: 3/5
+⭐ My rating: 5/5
 
-📝 Comments: I came to know about this book from BookTok, but perhaps I'm just too old for young, sweet romance. The story was sad and beautiful though.
+📝 Comment: This book is eye-opening for me and greatly motivates me to do better in terms of health. It guides you through the steps that you could take to lower the chance of the common old age diseases which include heart disease, cancer, Alzheimer’s disease, and type 2 diabetes.
 
-💬 Quotes:
-- Why does it take a life ending to learn how to cherish each day? Why must we wait until we run out of time to start to accomplish all that we dreamed, when once we had all the time in the world? Why don’t we look at the person we love the most like it’s the last time we will ever see them? Because if we did, life would be so vibrant. Life would be so truly and completely lived.
-- She was my cherry blossom. An unrivaled beauty, limited in its life. A beauty so extreme in its grace that it can't last. It stays to enrich our lives, then drifts away in the wind. Never forgotten. Because it reminds us we must live. That life is fragile, yet in that fragility, there is strength. There is love. There is purpose. It reminds us that life is short, that our breaths are numbered and our destiny is fixed, regardless of how hard we fight. It reminds us not to waste a single second. Live hard, love harder. Chase dreams, seek adventures...capture moments. Live beautifully.
-
-**3. [Five Survive](https://www.goodreads.com/book/show/61313902-five-survive?from_search=true&from_srp=true&qid=fbw4OcDZTr&rank=1)**
+**3. [The Three-Body Problem](https://www.goodreads.com/book/show/61313902-five-survive?from_search=true&from_srp=true&qid=fbw4OcDZTr&rank=1)**
 
 <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1664370443i/61313902.jpg" width="258" height="400">
 
 ✏️ Author: Holly Jackson \\
-📅 Published date: 29 November 2022 \\
+📅 Published date: 1 May 2006 \\
 📚 Genres: Mystery, Thriller, Young Adult \\
-📅 Dates read: 30 January 2024 - 5 February 2024 \\
+📅 Dates read: 25 April 2024 - 6 May 2024 \\
 💻 Format: E-book \\
-⭐ My rating: 4/5
+⭐ My rating: 5/5
 
-📝 Comments: Although the story line was simple and predictable, it was very fast-paced. This is why I love Holly Jackson's books, she knows how to keep you on your toes!
-
-
-
+📝 Comment: I decided to pick up this book after the my friends recommended the Netflix series to me. There are many complex yet interesting concepts in this book that were described well. It is very science-heavy which might not be for everyone, but it appeals to me since I studied particle physics for my undergraduate.
