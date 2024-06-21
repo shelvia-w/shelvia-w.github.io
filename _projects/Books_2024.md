@@ -38,9 +38,9 @@ Here are some of my favourites:
 
 📝 Comment: This book is eye-opening for me and greatly motivates me to do better in terms of health. It guides you through the steps that you could take to lower the chance of the common old age diseases which include heart disease, cancer, Alzheimer’s disease, and type 2 diabetes.
 
-**3. [The Three-Body Problem](https://www.goodreads.com/book/show/61313902-five-survive?from_search=true&from_srp=true&qid=fbw4OcDZTr&rank=1)**
+**3. [The Three-Body Problem](https://www.goodreads.com/book/show/20518872-the-three-body-problem)**
 
-<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1664370443i/61313902.jpg" width="258" height="400">
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415428227i/20518872.jpg" width="258" height="400">
 
 ✏️ Author: Holly Jackson \\
 📅 Published date: 1 May 2006 \\
