@@ -2,7 +2,7 @@
 layout: page
 title: Collections
 permalink: /collections/
-description: A collection of my favourites.
+description: A collection of my projects (coming soon).
 nav: true
 nav_order: 4
 display_categories:
