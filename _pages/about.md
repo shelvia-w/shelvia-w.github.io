@@ -17,9 +17,9 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I am currently pursuing a PhD at the National University of Singapore, specializing in Artificial Intelligence (AI), under the supervision of Professor [Mehul Motani](https://mehulmotani.github.io/). I am interested in using information theory to understand deep neural networks. My research areas in deep learning include generalization, explainability, fairness, robustness, uncertainty quantification and privacy, all of which are important to build safe and trustworthy AI models.
+I recently earned my PhD in Artificial Intelligence (AI) from the National University of Singapore (NUS), where I was supervised by Professor [Mehul Motani](https://mehulmotani.github.io/). In my thesis, I investigated how information-theoretic measures can be used to analyze deep neural networks. My research areas in deep learning include generalization, explainability, fairness, robustness, uncertainty quantification and privacy, all of which are important to build safe and trustworthy AI models.
 
-Other interests: particle physics and neuroscience \\
-Hobbies: taking walks, reading books, and journaling
+Other interests: particle physics, neuroscience, psychology \\
+Hobbies: exercising, reading books, gaming, and journalling
 
 <strong>Contact</strong>: shelvia.w@u.nus.edu
