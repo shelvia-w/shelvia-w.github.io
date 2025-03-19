@@ -8,7 +8,7 @@ category: gaming
 related_publications: true
 ---
 
-<img src="https://static.wikia.nocookie.net/valorant/images/4/44/Bundle_Mystbloom.png/revision/latest?cb=20240430235520">
+<img src="assets/img/Bundle_Mystbloom.png" alt="Mystbloom Bundle">
 
 
 I'm currently taking on a challenge to conduct user experience and market research for Valorant cosmetics. While it's a bit different from the research I'm used to, I believe there's no harm in trying. I love research in general, especially when it involves a bit of psychology. Plus, I enjoy learning new things, and I've realized that I really like this kind of research too. Who knows what my knowledge in AI can contribute to this field!
