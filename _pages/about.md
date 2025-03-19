@@ -22,4 +22,4 @@ I am a self-driven researcher with a strong passion for exploring innovative ide
 Other interests: particle physics, neuroscience, psychology \\
 Hobbies: exercising, reading books, gaming, and journalling
 
-<strong>Contact</strong>: shelvia.w@u.nus.edu
+<strong>Contact</strong>: shelvia@nus.edu.sg
