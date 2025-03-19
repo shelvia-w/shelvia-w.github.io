@@ -18,4 +18,5 @@ I'm currently taking on a challenge to conduct user experience and market resear
 - [Research Report](https://github.com/shelvia-w/Valorant-Cosmetics/blob/main/report/Valorant%20Cosmetics%20Research%20Report.pdf)
 
 **Updates**:
-March 20, 2024: I’ve finished familiarizing myself with Valorant cosmetics and have read up on user experience and market research. Next, I’ll focus on extracting relevant statistics about the product and gathering data on users' opinions.
+
+*March 20, 2024*: I’ve finished familiarizing myself with Valorant cosmetics and have read up on user experience and market research. Next, I’ll focus on extracting relevant statistics about the product and gathering data on users' opinions.
