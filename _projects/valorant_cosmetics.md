@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Valorant Cosmetics
 description: Research on Valorant Cosmetics
@@ -20,4 +20,4 @@ I'm currently taking on a challenge to conduct user experience and market resear
 **Updates**:
 
 - **March 19, 2024:** I’ve finished familiarizing myself with Valorant cosmetics and have read up on user experience and market research. Next, I’ll focus on extracting relevant statistics about the product and gathering data on users' opinions.
-- **March 18, 2024:** I've compiled the [data](https://github.com/shelvia-w/Valorant-Cosmetics/tree/main/data) for Valorant collections, which could be useful for future analysis. Additionally, I've made sure to fully understand all key terms and systems related to Valorant cosmetics.
+- **March 18, 2024:** I've compiled the [data](https://github.com/shelvia-w/Valorant-Cosmetics/tree/main/data) for Valorant collections, which could be useful for future analysis. Additionally, I've made sure to fully understand all key terms and systems related to Valorant cosmetics. -->
