@@ -1,10 +1,10 @@
 ---
 layout: page
 title: AI Tutor Buddy
-description: Improve and speed up learning with AI
+description: Improve and speed up your learning with AI
 img: assets/img/ai_tutor_buddy/ai_tutor.png
 importance: 1
-category: gaming
+category: webapp
 related_publications: true
 ---
 
