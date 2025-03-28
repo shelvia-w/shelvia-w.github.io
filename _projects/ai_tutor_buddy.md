@@ -72,7 +72,7 @@ Dig in as deep as you want—shape inference, convolutional filters, memory layo
 ### Preview
 Here's a preview of the website:
 
-<img src="https://raw.githubusercontent.com/shelvia-w/shelvia-w.github.io/refs/heads/master/assets/img/ai_tutor_buddy/web_1.png" width='820px'>
+<img src="https://raw.githubusercontent.com/shelvia-w/shelvia-w.github.io/refs/heads/master/assets/img/ai_tutor_buddy/web.png" width='820px'>
 
 
 ### Updates:
