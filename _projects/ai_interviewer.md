@@ -2,7 +2,7 @@
 layout: page
 title: AI Interviewer
 description: Sharpen your interview skills with AI
-img: assets/img/interview_coach/interview_coach.png
+img: assets/img/ai_interviewer/interview_coach.png
 importance: 1
 category: webapp
 related_publications: true

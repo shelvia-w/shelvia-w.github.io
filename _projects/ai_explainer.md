@@ -2,7 +2,7 @@
 layout: page
 title: AI Explainer
 description: Ask AI to explain in 5 levels of difficulty.
-img: assets/img/interview_coach/ai_explainer.png
+img: assets/img/ai_explainer/ai_explainer.png
 importance: 1
 category: webapp
 related_publications: true
