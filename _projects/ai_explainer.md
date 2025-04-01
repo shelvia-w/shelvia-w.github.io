@@ -8,7 +8,7 @@ category: webapp
 related_publications: true
 ---
 
-<img src="https://raw.githubusercontent.com/shelvia-w/shelvia-w.github.io/refs/heads/master/assets/img/ai_explainer/ai_tutor_cover.png" width='820px'>
+<img src="https://raw.githubusercontent.com/shelvia-w/shelvia-w.github.io/refs/heads/master/assets/img/ai_explainer/ai_tutor_cover.png" width='800px'>
 
 I’m currently working on a challenge to build an AI explainer that explains a concept in 5 different levels of difficulty. The goal of this AI explainer is to adapt to my level of understanding. If the concept is completely new and abstract to me, I’d prefer a simple explanation with analogies. But if I’m already somewhat familiar with it, I’d rather have a higher-level explanation. Here’s my idea:
 
@@ -61,7 +61,7 @@ Grokking raises questions about the implicit biases of training dynamics, phase 
 ### Preview
 I don't have any experience building a web app, but I'm excited to give it my best shot! Here's a preview of the website:
 
-<img src="https://raw.githubusercontent.com/shelvia-w/shelvia-w.github.io/refs/heads/master/assets/img/ai_explainer/web.png" width='820px'>
+<img src="https://raw.githubusercontent.com/shelvia-w/shelvia-w.github.io/refs/heads/master/assets/img/ai_explainer/web.png" width='800px'>
 
 ### Updates:
 - Tested the AI explainer using custom GPT.
