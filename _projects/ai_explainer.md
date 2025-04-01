@@ -22,35 +22,35 @@ The AI Explainer is designed to explain any concept across five levels of unders
 
 It adapts explanations according to the concept and can use analogies, technical terms, or simplified language depending on the level. It ensures clarity, avoids over-complication at early levels, and incorporates technical depth and nuance at advanced levels. It may ask the user for clarification if the concept is ambiguous or too broad, but will otherwise default to making the best-educated interpretation.
 
-### Example
+### ✨ Example
 
 I asked it to explain "grokking in machine learning" in 5 levels:
 
-#### Child Level
+#### 👶 Child Level
 
 Imagine you're learning how to solve puzzles. At first, it's really hard, and you keep making mistakes. Then, one day, something just clicks in your brain — and suddenly, you can solve the puzzle super fast and really well!
 
 That magical moment is called grokking — it's when you really understand something deep inside, not just a little bit, but all the way.
 
-#### High School Level
+#### 🎒 High School Level
 
 Grokking in machine learning is like when you're studying for a test. At first, you kind of get the idea, but you’re still guessing. Then, after lots of practice, suddenly everything makes sense, and you start getting all the questions right — even the tricky ones.
 
 In machine learning, a model might seem like it's not learning much at first. But after a lot of training, suddenly it "gets it" — it understands the pattern really well and performs much better. That surprise improvement is called grokking.
 
-#### College Level
+#### 🎓 College Level
 
 In machine learning, grokking refers to a phenomenon where a model, after initially overfitting to training data, suddenly begins to generalize very well to unseen data — often after a long period of continued training.
 
 This seems counterintuitive because the model first memorizes training data and performs poorly on validation data. But then, over time, it transitions into a phase where it not only fits the training data but also generalizes extremely well — almost as if it suddenly "understands" the deeper rules of the task.
 
-#### Graduate Level
+#### 📝 Graduate Level
 
 Grokking is a delayed generalization phenomenon observed in deep learning models. Initially, the model overfits the training data, showing poor generalization. However, with prolonged training — sometimes far beyond when we'd expect convergence — the model abruptly transitions into a phase of excellent generalization.
 
 This behavior challenges traditional generalization dynamics and suggests the model is gradually reorganizing its internal representations, potentially moving from memorization-based to structure-based understanding. Grokking has been studied using algorithmic datasets (like modular arithmetic tasks), where such transitions are easier to isolate and analyze. It's often associated with sparse, interpretable solutions emerging late in training.  
 
-#### Expert Level
+#### 🧠Expert Level
 
 Grokking, as introduced in the 2022 paper “Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets” (Power et al.), describes a learning dynamic where models, particularly transformer architectures trained on algorithmic tasks, exhibit prolonged overfitting followed by a sudden phase transition into strong generalization.
 
@@ -58,11 +58,11 @@ This is particularly interesting in settings with low training data entropy, whe
 
 Grokking raises questions about the implicit biases of training dynamics, phase transitions in solution manifolds, and the interplay between representation compression and generalization.
 
-### Preview
+### 👀 Preview
 I don't have any experience building a web app, but I'm excited to give it my best shot! Here's a preview of the website:
 
 <img src="https://raw.githubusercontent.com/shelvia-w/shelvia-w.github.io/refs/heads/master/assets/img/ai_explainer/web.png" width='800px'>
 
-### Updates:
+### ⏳ Updates:
 - Tested the AI explainer using custom GPT.
 - In the progress of prototyping the website.
