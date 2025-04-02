@@ -27,8 +27,8 @@ I’ll be doing a deep dive into their circuit tracing methodology in a separate
 What they found:
 - Claude does perform "two-hop" reasoning: features representing `Dallas` activate features for `Texas`, which then activate features for `say Austin`. 
 - A direct "shortcut" pathway also exists, linking the `Dallas` features directly to the `say Austin` features.
-- They validated the attribution graph using inhibition experiments, confirming its plausibility.
-- When they replaced the `Texas` features with features representing another state (e.g., `California`), Claude correctly output the capital of that new state (`Sacramento`).
+- They validated the "correctness" of the attribution graph using inhibition experiments - where they inhibited different features and measured the impact on other features as well as the final output.
+- When they replaced the `Texas` features with features representing another state (e.g., `California`), Claude correctly output the capital of that new state (`Sacramento`). This confirms that the intermediate feature `Texas` plays an important role in arriving at the model’s final output of `Austin`.
 
 <!-- ### 🌟 2. Planning in Poems
 
