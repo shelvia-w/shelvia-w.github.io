@@ -21,7 +21,7 @@ I’ll be doing a deep dive into their circuit tracing methodology in a separate
 ---
 
 **Prompt**: `Fact: the capital of the state containing Dallas is` <br />
-**Answer**: `Austin`
+**Response**: `Austin`
 
 **Objective**: to check whether Claude truly engages in multi-step reasoning (linking Dallas to Texas, then Texas to Austin) or just taking a "shortcut" by parroting patterns seen during training.
 
