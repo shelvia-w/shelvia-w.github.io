@@ -10,11 +10,11 @@ categories: paper
 Last week, a friend shared an interesting paper with me from LeCun's group, "[Transformers without Normalization](https://arxiv.org/pdf/2503.10622)," where they introduced Dynamic Tanh (DyT) as a replacement for layer normalization in Transformers. Let's briefly look at what it's about!
 
 **Contents:**
-- [Dynamic Tanh](#✨-dynamic-tanh)
-- [Layer Normalization](#✨-layer-normalization)
-- [Results](#✨-results)
-- [Questions to Ponder](#💭-questions-to-ponder)
-- [References](#📚-references)
+- [Dynamic Tanh](#-dynamic-tanh)
+- [Layer Normalization](#-layer-normalization)
+- [Results](#-results)
+- [Questions to Ponder](#-questions-to-ponder)
+- [References](#-references)
 
 #### ✨ Dynamic Tanh
 Instead of using a normalization layer, they propose a simple element-wise operation:
