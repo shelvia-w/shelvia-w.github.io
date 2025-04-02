@@ -12,6 +12,8 @@ Last week, a friend shared an interesting paper with me from LeCun's group, "[Tr
 
 $$DyT(x)=\tanh(\alpha x)$$
 
+where $\alpha$ is a learnabele scalar parameter.
+
 Their motivation? While researchers have been busy tweaking various parts of the Transformer architecture, the normalization layer has remained largely untouched. This raises an intriguing question: Is layer normalization truly essential for Transformers to perform well?
 
 ### ✨ Layer Normalization
