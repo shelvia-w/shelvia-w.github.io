@@ -13,7 +13,10 @@ Anthropic recently released two fascinating papers aimed at understanding how th
 
 I’ll be doing a deep dive into their circuit tracing methodology in a separate post. For now, this post focuses on what they discovered—their key findings.
 
-### 🌟 1. Multi-step Reasoning vs Shortcut
+**Contents:**
+- [Multi-step Reasoning vs Shortcut](#-1-multi-step-reasoning-vs-shortcut)
+
+#### 🌟 1. Multi-step Reasoning vs Shortcut
 
 ---
 
