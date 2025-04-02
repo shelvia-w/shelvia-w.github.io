@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Transformers Can Work Without Normalization Layer?
+title: Transformers Can Work Without Normalization Layer? ⚡
 date: 2025-03-19
 description: 🤔 <b><i> Yann LeCun's group introduced an alternative called Dynamic Tanh (DyT). </b></i>
 tags: regularization
