@@ -7,7 +7,7 @@ tags: anthropic
 categories: news, paper
 ---
 
-**Note: This post is currently in progress and will be updated soon.**
+**Note: This post is currently in progress.**
 
 Anthropic recently released two fascinating papers aimed at understanding how their Claude model "thinks." One introduces a [circuit tracing methodology to link concepts together](https://transformer-circuits.pub/2025/attribution-graphs/methods.html) that links internal model concepts together, while the other studies [a range of phenomena to understand Claude 3.5 Haiku's thinking process](https://transformer-circuits.pub/2025/attribution-graphs/biology.html). to better understand the thought process behind Claude 3.5 Haiku. Why does it matter how these models think? Because understanding their internal reasoning helps ensure they’re doing what we intend them to do. It reminds me of another intriguing Anthropic paper,  [Auditing Language Models for Hidden Objectives](https://assets.anthropic.com/m/317564659027fb33/original/Auditing-Language-Models-for-Hidden-Objectives.pdf), which shows that models can be trained to pursue hidden, potentially misaligned goals. If we rely on AI systems for critical decisions, building trust becomes essential—and transparency (or explainability) is one of the most important ways to do that.
 
