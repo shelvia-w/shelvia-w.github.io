@@ -22,7 +22,7 @@ I really love mixing AI with design and finding creative ways to bring the two t
 
 
 #### 👀 Preview
-Here's a preview of the website:
+Here's a preview of the website (it's vibe coded btw since I have little experience building a website):
 
 <img src="https://raw.githubusercontent.com/shelvia-w/shelvia-w.github.io/refs/heads/master/assets/img/vibe_coding/web.png" width='500px'>
 
