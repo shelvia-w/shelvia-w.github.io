@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ⚡ A to Z Vibe Coding
+title: ⚡ Vibe Coding
 description: Fun, little aesthetic vibe coding challenge.
 img: assets/img/vibe_coding/vibe_coder_girl.png
 importance: 1
