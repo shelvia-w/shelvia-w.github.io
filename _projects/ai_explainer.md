@@ -3,7 +3,7 @@ layout: page
 title: 👩🏻‍🏫 AI 5-Level Explainer
 description: Explain a concept in 5 levels of difficulty.
 img: assets/img/ai_explainer/ai_tutor.png
-importance: 1
+importance: 2
 category: webapp
 related_publications: true
 ---
