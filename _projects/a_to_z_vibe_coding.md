@@ -18,8 +18,7 @@ related_publications: true
 
 I'm so excited to be starting a new challenge called: A to Z Vibe Coding. This challenge is largely inspired by Alexander Tingström's [30 Days of Vibe](https://30daysofvibe.com/). Be sure to check out his amazing work! I decided to take a slightly different approach: each project title is based on a letter of the alphabet (I might start from a random letter). And at the end, I’m planning to include 4 bonus projects (marked with card suit icons), which will be a bit more challenging than the others.
 
-I really love mixing AI with design and finding creative ways to bring the two together. Through these side projects, I like playing at the intersection of logic and creativity.
-
+I really love mixing AI with design and finding creative ways to bring the two together. Through these side projects, I like playing at the intersection of logic and creativity. Check out the website [here](https://a-to-z-vibes.vercel.app/)!
 
 #### 👀 Preview
 Here's a preview of the website (it's vibe coded btw since I have little experience building a website):
@@ -27,5 +26,6 @@ Here's a preview of the website (it's vibe coded btw since I have little experie
 <img src="https://raw.githubusercontent.com/shelvia-w/shelvia-w.github.io/refs/heads/master/assets/img/vibe_coding/web.png" width='500px'>
 
 #### ⏳ Updates:
-- Planning to finish 1 project before publishing the website.
+- Published website.
+- Almost completing first project - Card Melody
 - Finished designing the website.
