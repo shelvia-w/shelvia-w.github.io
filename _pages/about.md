@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I am a self-driven researcher with a strong passion for exploring innovative ideas, solving complex problems, and always ready to take on new challenges. I recently earned my PhD in Artificial Intelligence (AI) from the National University of Singapore (NUS), where I was supervised by Professor [Mehul Motani](https://mehulmotani.github.io/). In my thesis, I investigated how information-theoretic measures can be used to analyze deep neural networks. My research areas in deep learning include generalization, explainability, fairness, robustness, uncertainty quantification and privacy, all of which are important to build safe and trustworthy AI models.
+I am a Research Fellow at Nanyang Technological University working with [Jeremie Houssineau](https://jeremiehoussineau.com/) on the theoretical foundations of uncertainty quantification for large language models (LLMs). I obtained my PhD from the National University of Singapore in 2025 under [Mehul Motani](https://mehulmotani.github.io/). In my thesis, I investigated how information-theoretic measures can be used to analyze deep neural networks. My research areas are generalization and uncertainty quantification in deep neural networks. Currently, I am also looking towards specializing in AI safety, and in particular in the area of misalignment and hallucination of LLMs.
 
 Other interests: particle physics, neuroscience, psychology
 

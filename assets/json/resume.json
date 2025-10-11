@@ -9,18 +9,18 @@
     },
   "work": [
     {
-      "name": "Nanyang Technological University",
-      "position": "Research Fellow",
-      "startDate": "2024-06",
-      "endDate": "Present",
-      "summary": "Conduct research on safe and trustworthy large language models (LLMs)"
-    },
-    {
       "name": "National University of Singapore",
       "position": "Research Fellow",
       "startDate": "2024-10",
       "endDate": "2025-04",
       "summary": "Validate the recurrent marked temporal point survival model for better predicting the risk of Major Adverse Cardiovascular Events on external healthcare data."
+    },
+    {
+      "name": "Nanyang Technological University",
+      "position": "Research Fellow",
+      "startDate": "2024-06",
+      "endDate": "Present",
+      "summary": "Conduct research on theoretical framework for uncertainty quantification in large language models."
     }
   ],
   "volunteer": [
@@ -60,18 +60,26 @@
     },
     {
       "name": "Mathematics",
-      "keywords": ["Statistics", "Linear Algebra", "Calculus"]
+      "keywords": ["Information Theory", "Bayesian Inference"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Fluent (written and spoken)"
     },
     {
       "language": "Indonesian",
       "fluency": "Native speaker"
-    } 
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Basic proficiency"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Basic proficiency"
+    }  
   ]
 
 }

@@ -4,5 +4,14 @@
 "ISIT":
   color: "#00369F"
 
+"ICLR":
+  color: "#00369F"
+
+"ICML":
+  color: "#00369F"
+
 "Oral":
+  color: "#C70039"
+
+"Poster":
   color: "#C70039"
