@@ -3,17 +3,24 @@
     "name": "Shelvia Wongso",
     "status": "Research Fellow",
     "image": "",
-    "email": "shelvia@nus.edu.sg",
-    "affiliation": "National University of Singapore",
+    "email": "shelvia.wongso@ntu.edu.sg",
+    "affiliation": "Nanyang Technological University",
     "country": "Singapore"
     },
   "work": [
     {
+      "name": "Nanyang Technological University",
+      "position": "Research Fellow",
+      "startDate": "2024-06",
+      "endDate": "Present",
+      "summary": "Conduct research on safe and trustworthy large language models (LLMs)"
+    },
+    {
       "name": "National University of Singapore",
       "position": "Research Fellow",
-      "startDate": "2024",
-      "endDate": "present",
-      "summary": "My task is to enhance the recurrent marked temporal point survival model for better predicting the risk of Major Adverse Cardiovascular Events."
+      "startDate": "2024-10",
+      "endDate": "2025-04",
+      "summary": "Validate the recurrent marked temporal point survival model for better predicting the risk of Major Adverse Cardiovascular Events on external healthcare data."
     }
   ],
   "volunteer": [

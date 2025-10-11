@@ -1,10 +1,8 @@
 ---
 layout: cv
 permalink: /cv/
-title: Resume
+title: CV
 nav: true
 nav_order: 2
-description: 
-toc:
-  sidebar: left
+redirect_to: /assets/resume/CV.pdf
 ---

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher in Information Theory for Machine Learning.
+subtitle: Researcher in Trustworthy Machine Learning.
 
 profile:
   align: right
@@ -19,7 +19,6 @@ social: false  # includes social icons at the bottom of the page
 
 I am a self-driven researcher with a strong passion for exploring innovative ideas, solving complex problems, and always ready to take on new challenges. I recently earned my PhD in Artificial Intelligence (AI) from the National University of Singapore (NUS), where I was supervised by Professor [Mehul Motani](https://mehulmotani.github.io/). In my thesis, I investigated how information-theoretic measures can be used to analyze deep neural networks. My research areas in deep learning include generalization, explainability, fairness, robustness, uncertainty quantification and privacy, all of which are important to build safe and trustworthy AI models.
 
-Other interests: particle physics, neuroscience, psychology \\
-Hobbies: exercising, reading books, gaming, and journalling
+Other interests: particle physics, neuroscience, psychology
 
-<strong>Contact</strong>: shelvia@nus.edu.sg
+<strong>Contact</strong>: shelvia.wongso@ntu.edu.sg
