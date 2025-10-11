@@ -51,14 +51,11 @@ layout: default
     </div>
   </article>
 
-  {%- if page.references and page.references.size > 0 -%}
+  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
   <h2>References</h2>
   <div class="publications">
-    <ol>
-    {%- for ref in page.references -%}
-      <li>{{ ref }}</li>
-    {%- endfor -%}
-    </ol>
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
   </div>
   {%- endif %}
 
