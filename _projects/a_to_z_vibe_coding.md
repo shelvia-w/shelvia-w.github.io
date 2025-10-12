@@ -3,7 +3,7 @@ layout: page
 title: Vibe Coding
 description: Fun, little aesthetic vibe coding challenge.
 img: assets/img/projects_main_img/vibe_coding.png
-importance: 1
+importance: 2
 category: webapp
 related_publications: true
 ---

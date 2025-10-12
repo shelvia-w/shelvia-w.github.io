@@ -19,6 +19,4 @@ social: false  # includes social icons at the bottom of the page
 
 I am a Research Fellow at Nanyang Technological University working with [Jeremie Houssineau](https://jeremiehoussineau.com/) on the theoretical foundations of uncertainty quantification for large language models (LLMs). I obtained my PhD from the National University of Singapore in 2025 under [Mehul Motani](https://mehulmotani.github.io/). In my thesis, I investigated how information-theoretic measures can be used to analyze deep neural networks. My research areas are generalization and uncertainty quantification in deep neural networks. Currently, I am also looking towards specializing in AI safety, and in particular in the area of misalignment and hallucination of LLMs.
 
-Other interests: particle physics, neuroscience, psychology
-
 <strong>Contact</strong>: shelvia.wongso@ntu.edu.sg

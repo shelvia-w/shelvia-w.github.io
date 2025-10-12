@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sinusoidal Positional Encoding
-description: Interactive visualization of transformer position embeddings
+description: Interactive visualization of transformer position embeddings.
 img: assets/img/projects_main_img/pos_encoding.png
 importance: 1
 category: webapp
