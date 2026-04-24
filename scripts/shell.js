@@ -26,11 +26,46 @@
           <li><a href="${link.projects}" class="nav-link-projects">Projects</a></li>
           <li><a href="${link.cv}" class="nav-link-cv" target="_blank" rel="noopener">CV</a></li>
         </ul>
-        <button class="drawer-btn" aria-haspopup="true" aria-expanded="false" aria-controls="drawer">
-          <span class="drawer-btn-dot" aria-hidden="true"></span>
-          Shelvia Wongso
-        </button>
-      </nav>`;
+        <div class="nav-right">
+          <button class="drawer-btn" aria-haspopup="true" aria-expanded="false" aria-controls="drawer">
+            <span class="drawer-btn-dot" aria-hidden="true"></span>
+            Shelvia Wongso
+          </button>
+          <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+            <svg class="hamburger-icon" width="22" height="22" viewBox="0 0 22 22" fill="none">
+              <line class="ham-top"    x1="3" y1="6"  x2="19" y2="6"  stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              <line class="ham-mid"    x1="3" y1="11" x2="19" y2="11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              <line class="ham-bottom" x1="3" y1="16" x2="19" y2="16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <a href="${link.home}" class="mobile-menu-link">
+          <span class="mobile-menu-icon" style="background:rgba(184,152,255,0.15);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" stroke="var(--accent-lavender)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Home
+        </a>
+        <a href="${link.research}" class="mobile-menu-link">
+          <span class="mobile-menu-icon" style="background:rgba(184,152,255,0.15);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2zM22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" stroke="var(--accent-lavender)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Research
+        </a>
+        <a href="${link.projects}" class="mobile-menu-link">
+          <span class="mobile-menu-icon" style="background:rgba(255,63,164,0.15);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="var(--accent-pink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Projects
+        </a>
+        <a href="${link.cv}" class="mobile-menu-link" target="_blank" rel="noopener">
+          <span class="mobile-menu-icon" style="background:rgba(240,192,64,0.15);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline points="14 2 14 8 20 8" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          CV
+        </a>
+      </div>`;
   }
 
   /* ── DRAWER ───────────────────────────────────────────── */

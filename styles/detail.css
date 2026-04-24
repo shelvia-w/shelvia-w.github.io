@@ -42,6 +42,21 @@ blockquote {
   font-style: italic;
 }
 
+/* Detail grid — responsive */
+.detail-grid {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.detail-grid.cols-2 { grid-template-columns: 1fr 1fr; }
+.detail-grid.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+
+@media (max-width: 600px) {
+  .detail-grid.cols-2,
+  .detail-grid.cols-3 { grid-template-columns: 1fr; }
+}
+
 .detail-link {
   color: #fbbf24;
   text-decoration: none;
@@ -50,4 +65,9 @@ blockquote {
 .detail-link:hover {
   color: #f472b6;
   text-decoration: underline;
+}
+
+/* Detail page mobile spacing */
+@media (max-width: 768px) {
+  .detail-page { padding-top: 4rem; }
 }

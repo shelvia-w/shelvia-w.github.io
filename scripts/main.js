@@ -22,8 +22,37 @@ drawerBtns.forEach(btn => btn.addEventListener('click', openDrawer));
 drawerClose?.addEventListener('click', closeDrawer);
 drawerOverlay?.addEventListener('click', closeDrawer);
 
+/* ============================================================
+   MOBILE MENU
+   ============================================================ */
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const mobileMenu   = document.getElementById('mobileMenu');
+
+function openMobileMenu() {
+  mobileMenu.classList.add('open');
+  mobileMenu.setAttribute('aria-hidden', 'false');
+  hamburgerBtn.classList.add('active');
+  hamburgerBtn.setAttribute('aria-expanded', 'true');
+}
+
+function closeMobileMenu() {
+  mobileMenu.classList.remove('open');
+  mobileMenu.setAttribute('aria-hidden', 'true');
+  hamburgerBtn.classList.remove('active');
+  hamburgerBtn.setAttribute('aria-expanded', 'false');
+}
+
+hamburgerBtn?.addEventListener('click', () => {
+  mobileMenu.classList.contains('open') ? closeMobileMenu() : openMobileMenu();
+});
+
+mobileMenu?.querySelectorAll('.mobile-menu-link').forEach(link => {
+  link.addEventListener('click', closeMobileMenu);
+});
+
+/* ── Escape closes both drawer and mobile menu ───── */
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeDrawer();
+  if (e.key === 'Escape') { closeDrawer(); closeMobileMenu(); }
 });
 
 /* ============================================================

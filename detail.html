@@ -108,16 +108,15 @@
     }
 
     function renderGrid(cells) {
-      const cols = cells.length === 3 ? '1fr 1fr 1fr' : '1fr 1fr';
+      const colsCls = cells.length === 3 ? 'cols-3' : 'cols-2';
       const items = cells.map(c => {
         const color = GRID_COLOR_VARS[c.color] || 'var(--accent-lavender)';
-        const bg    = c.color ? `rgba(${hexToRgb(c.color)},0.04)` : 'transparent';
         return `<div style="padding:1rem 1.2rem;border:1px solid var(--border-subtle);border-radius:var(--radius-md);">
                   <p style="font-size:0.72rem;font-family:var(--font-mono);color:${color};letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.4rem;">${c.label}</p>
                   <p style="font-size:0.85rem;color:var(--text-secondary);">${c.text}</p>
                 </div>`;
       }).join('');
-      return `<div style="display:grid;grid-template-columns:${cols};gap:0.85rem;margin-top:1rem;">${items}</div>`;
+      return `<div class="detail-grid ${colsCls}">${items}</div>`;
     }
 
     function renderCards(cards) {
