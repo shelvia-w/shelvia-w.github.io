@@ -1,0 +1,53 @@
+/* Additional styles for detail pages — supplements main.css */
+
+/* Push content below the fixed nav on detail pages */
+.detail-page {
+  padding-top: 5rem;
+}
+
+/* Slightly widen the content column on detail pages for readability */
+@media (min-width: 900px) {
+  .detail-body .container {
+    max-width: 820px;
+  }
+}
+
+/* Fancy horizontal rule used in detail body */
+.detail-hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
+  margin: 3rem 0;
+}
+
+/* Inline code */
+code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: rgba(184, 152, 255, 0.1);
+  color: var(--accent-lavender);
+  padding: 0.15em 0.45em;
+  border-radius: 4px;
+  border: 1px solid rgba(184, 152, 255, 0.15);
+}
+
+/* Blockquote style for detail pages */
+blockquote {
+  border-left: 3px solid var(--accent-lavender);
+  padding: 0.75rem 1.5rem;
+  margin: 1.5rem 0;
+  background: rgba(184, 152, 255, 0.04);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.detail-link {
+  color: #fbbf24;
+  text-decoration: none;
+}
+
+.detail-link:hover {
+  color: #f472b6;
+  text-decoration: underline;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shelvia — AI Research & Projects</title>
+  <meta name="description" content="Personal portfolio of Shelvia — AI researcher working on AI safety, uncertainty, and thoughtful technical projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+  <div id="shell-nav"></div>
+  <div id="shell-drawer"></div>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════ -->
+  <section id="home" class="hero section">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="orb orb-pink   hero-orb-1" aria-hidden="true"></div>
+    <div class="orb orb-lavender hero-orb-2" aria-hidden="true"></div>
+    <div class="orb orb-peach  hero-orb-3" aria-hidden="true"></div>
+
+    <svg class="constellation" aria-hidden="true" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="60"  y1="80"  x2="160" y2="50"  stroke="rgba(184,152,255,0.18)" stroke-width="1"/>
+      <line x1="160" y1="50"  x2="240" y2="110" stroke="rgba(184,152,255,0.18)" stroke-width="1"/>
+      <line x1="240" y1="110" x2="200" y2="200" stroke="rgba(184,152,255,0.12)" stroke-width="1"/>
+      <line x1="200" y1="200" x2="100" y2="230" stroke="rgba(184,152,255,0.12)" stroke-width="1"/>
+      <line x1="100" y1="230" x2="60"  y2="80"  stroke="rgba(184,152,255,0.10)" stroke-width="1"/>
+      <line x1="160" y1="50"  x2="200" y2="200" stroke="rgba(255,63,164,0.10)"  stroke-width="1"/>
+      <line x1="60"  y1="80"  x2="200" y2="200" stroke="rgba(255,140,96,0.08)"  stroke-width="1"/>
+      <circle cx="60"  cy="80"  r="3"   fill="rgba(184,152,255,0.7)"/>
+      <circle cx="160" cy="50"  r="4"   fill="rgba(255,140,96,0.8)"  filter="url(#gp)"/>
+      <circle cx="240" cy="110" r="2.5" fill="rgba(255,63,164,0.7)"/>
+      <circle cx="200" cy="200" r="3.5" fill="rgba(240,192,64,0.7)"  filter="url(#gg)"/>
+      <circle cx="100" cy="230" r="2"   fill="rgba(184,152,255,0.5)"/>
+      <circle cx="140" cy="155" r="1.5" fill="rgba(255,255,255,0.3)"/>
+      <circle cx="95"  cy="145" r="1"   fill="rgba(255,255,255,0.2)"/>
+      <circle cx="190" cy="75"  r="1"   fill="rgba(255,255,255,0.2)"/>
+      <defs>
+        <filter id="gp" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="gg" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+    </svg>
+
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Hi, I'm Shelvia.</p>
+        <h1 class="hero-title">
+          I am passionate about
+          <span class="gradient-text">safety and education</span>
+          <br />in the era of AI.
+        </h1>
+        <p class="hero-subtitle">
+          A personal portfolio of my research and personal projects.
+        </p>
+        <div class="hero-actions">
+          <a href="research.html" class="btn btn-primary">
+            View Research
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="projects.html" class="btn btn-secondary">View Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       RESEARCH PREVIEW
+  ════════════════════════════════════════════ -->
+  <section id="research" class="preview-section">
+    <div class="orb orb-lavender" style="width:600px;height:400px;top:-80px;left:-200px;opacity:0.4;" aria-hidden="true"></div>
+    <div class="container">
+      <div class="preview-header reveal">
+        <div class="preview-header-left">
+          <p class="section-label">Research</p>
+          <h2 class="section-title">Research Directions</h2>
+          <div class="list-divider"></div>
+        </div>
+        <a href="research.html" class="preview-more-link">
+          View all research
+          <svg class="item-arrow" width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="item-list" id="research-list" role="list"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PROJECTS PREVIEW
+  ════════════════════════════════════════════ -->
+  <section id="projects" class="preview-section">
+    <div class="orb orb-pink" style="width:500px;height:380px;bottom:-60px;right:-180px;opacity:0.35;" aria-hidden="true"></div>
+    <div class="orb orb-gold" style="width:300px;height:300px;top:40px;left:60%;opacity:0.25;"        aria-hidden="true"></div>
+    <div class="container">
+      <div class="preview-header reveal">
+        <div class="preview-header-left">
+          <p class="section-label">Projects</p>
+          <h2 class="section-title">Personal Projects</h2>
+          <div class="list-divider" style="background:linear-gradient(90deg,var(--accent-pink),transparent)"></div>
+        </div>
+        <a href="projects.html" class="preview-more-link projects">
+          View all projects
+          <svg class="item-arrow" width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="item-list" id="projects-list" role="list"></div>
+    </div>
+  </section>
+
+  <div id="shell-footer"></div>
+
+  <!-- arrow SVG reused in JS-rendered rows -->
+  <template id="arrow-svg">
+    <svg class="item-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+      <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </template>
+
+  <script>window.SHELL_BASE = './';</script>
+  <script src="scripts/shell.js"></script>
+  <script src="data/content.js"></script>
+  <script src="scripts/list.js"></script>
+  <script>
+    renderItemList(RESEARCH, 'research-list', 'research', 3);
+    renderItemList(PROJECTS, 'projects-list', 'project',  3);
+  </script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

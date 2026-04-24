@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shelvia Wongso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/detail.css" />
+</head>
+<body>
+
+  <div id="shell-nav"></div>
+  <div id="shell-drawer"></div>
+
+  <main class="detail-page" id="detail-main">
+    <!-- Populated by JS below -->
+  </main>
+
+  <div id="shell-footer"></div>
+
+  <script>window.SHELL_BASE = './';</script>
+  <script src="scripts/shell.js"></script>
+  <script src="data/content.js"></script>
+  <script>
+  (function () {
+    /* ── Helpers ───────────────────────────────────────────── */
+    const params = new URLSearchParams(window.location.search);
+    const id     = params.get('id');
+    const all    = [...RESEARCH, ...PROJECTS];
+    const item   = all.find(x => x.id === id);
+
+    if (!item) {
+      document.getElementById('detail-main').innerHTML =
+        `<div class="container" style="padding:8rem 0;text-align:center;">
+           <p style="color:var(--text-muted);font-size:1.1rem;">Item not found.</p>
+           <a href="index.html" class="btn btn-secondary" style="margin-top:2rem;display:inline-flex;">← Home</a>
+         </div>`;
+      return;
+    }
+
+    document.title = item.title + ' — Shelvia';
+
+    /* ── Tag styling map ───────────────────────────────────── */
+    const TAG_CLS = {
+      'Research':           'tag-research',
+      'Project':            'tag-project',
+      'Active':             'tag-active',
+      'Live':               'tag-active',
+      'In Progress':        'tag-in-progress',
+    };
+    const TAG_CUSTOM_COLOR = {
+      lavender: 'background:rgba(184,152,255,0.10);color:var(--accent-lavender);border:1px solid rgba(184,152,255,0.20)',
+      pink:     'background:rgba(255,63,164,0.10);color:var(--accent-pink);border:1px solid rgba(255,63,164,0.20)',
+      gold:     'background:rgba(240,192,64,0.10);color:var(--accent-gold);border:1px solid rgba(240,192,64,0.20)',
+      peach:    'background:rgba(255,140,96,0.10);color:var(--accent-peach);border:1px solid rgba(255,140,96,0.20)',
+      blue:     'background:rgba(91,138,245,0.10);color:var(--accent-blue);border:1px solid rgba(91,138,245,0.20)',
+    };
+    const GRID_COLOR_VARS = {
+      lavender: 'var(--accent-lavender)',
+      pink:     'var(--accent-pink)',
+      gold:     'var(--accent-gold)',
+      peach:    'var(--accent-peach)',
+      blue:     'var(--accent-blue)',
+      lime:     'var(--accent-lime)',
+      teal:     'var(--accent-teal)',
+    };
+
+    function renderTag(label) {
+      const cls = TAG_CLS[label];
+      if (cls) return `<span class="detail-tag ${cls}">${label}</span>`;
+      /* unknown tag → lavender pill */
+      return `<span class="detail-tag" style="${TAG_CUSTOM_COLOR.lavender}">${label}</span>`;
+    }
+
+    /* ── Section renderers ─────────────────────────────────── */
+    function renderSection(sec) {
+      let inner = '';
+
+      if (sec.html)  inner += sec.html;
+      if (sec.code)  inner += renderCode(sec.code);
+      if (sec.list)  inner += renderList(sec.list);
+      if (sec.grid)  inner += renderGrid(sec.grid);
+      if (sec.cards) inner += renderCards(sec.cards);
+
+      return `
+        <div class="detail-section reveal">
+          <h2 class="detail-section-heading">${sec.heading}</h2>
+          <div class="detail-text">${inner}</div>
+        </div>`;
+    }
+
+    function renderCode(code) {
+      const lines = code.split('\n').map(l => l.trim()).join('<br/>');
+      return `<div class="glass-panel" style="margin-top:1.2rem;">
+                <p style="font-family:var(--font-mono);font-size:0.82rem;color:var(--text-accent);line-height:2.1;">${lines}</p>
+              </div>`;
+    }
+
+    function renderList(items) {
+      const lis = items.map(i =>
+        `<li style="margin-bottom:0.35rem;">${i}</li>`
+      ).join('');
+      return `<ul style="padding-left:1.4rem;line-height:2.1;margin-top:0.6rem;">${lis}</ul>`;
+    }
+
+    function renderGrid(cells) {
+      const cols = cells.length === 3 ? '1fr 1fr 1fr' : '1fr 1fr';
+      const items = cells.map(c => {
+        const color = GRID_COLOR_VARS[c.color] || 'var(--accent-lavender)';
+        const bg    = c.color ? `rgba(${hexToRgb(c.color)},0.04)` : 'transparent';
+        return `<div style="padding:1rem 1.2rem;border:1px solid var(--border-subtle);border-radius:var(--radius-md);">
+                  <p style="font-size:0.72rem;font-family:var(--font-mono);color:${color};letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.4rem;">${c.label}</p>
+                  <p style="font-size:0.85rem;color:var(--text-secondary);">${c.text}</p>
+                </div>`;
+      }).join('');
+      return `<div style="display:grid;grid-template-columns:${cols};gap:0.85rem;margin-top:1rem;">${items}</div>`;
+    }
+
+    function renderCards(cards) {
+      return cards.map(c => {
+        const color = GRID_COLOR_VARS[c.color] || 'var(--accent-lavender)';
+        const links = (c.links || []).map(l =>
+          `<a href="${l.href}" target="_blank" rel="noopener" style="font-size:0.82rem;color:${color};text-decoration:none;border-bottom:1px solid transparent;transition:border-color 0.2s;" onmouseover="this.style.borderColor='${color}'" onmouseout="this.style.borderColor='transparent'">${l.label}</a>`
+        ).join('<span style="margin:0 0.5rem;color:var(--text-muted);">·</span>');
+        const linksHtml = links ? `<div style="margin-top:0.7rem;">${links}</div>` : '';
+        return `<div class="glass-panel" style="padding:1.4rem;margin-top:0.85rem;">
+                  <h3 style="font-size:1rem;font-weight:700;font-family:var(--font-heading);color:${color};margin-bottom:0.5rem;">${c.title}</h3>
+                  <p style="font-size:0.9rem;color:var(--text-secondary);">${c.text}</p>
+                  ${linksHtml}
+                </div>`;
+      }).join('');
+    }
+
+    /* map named color → approximate RGB triplet for rgba() */
+    function hexToRgb(name) {
+      const map = { lavender:'184,152,255', pink:'255,63,164', gold:'240,192,64', peach:'255,140,96' };
+      return map[name] || '184,152,255';
+    }
+
+    /* ── Title gradient ────────────────────────────────────── */
+    const titleGrad = item.type === 'project'
+      ? 'background:linear-gradient(135deg,var(--accent-magenta),var(--accent-yellow),var(--accent-lavender));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;'
+      : 'background:linear-gradient(135deg,var(--accent-lavender),var(--accent-peach),var(--accent-gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;';
+
+    const orbColor  = item.type === 'project' ? 'orb-pink' : 'orb-lavender';
+    const backLabel = item.type === 'project' ? 'Back to Projects' : 'Back to Research';
+    const backHref  = item.type === 'project' ? 'index.html#projects' : 'index.html#research';
+    const sectionLabel = item.type === 'project' ? 'Projects' : 'Research';
+
+    /* ── Extra links ───────────────────────────────────────── */
+    const extraLinks = (item.extraLinks || []).map(l => {
+      const cls = l.style === 'primary' ? 'btn-primary' : 'btn-secondary';
+      return `<a href="${l.href}" class="btn ${cls}">${l.label}</a>`;
+    }).join('');
+
+    /* ── Arrow SVG ─────────────────────────────────────────── */
+    const backArrow = `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+      <path d="M13 7H1M7 1L1 7l6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>`;
+
+    /* ── Render ────────────────────────────────────────────── */
+    document.getElementById('detail-main').innerHTML = `
+      <div class="detail-hero">
+        <div class="detail-hero-bg" aria-hidden="true"></div>
+        <div class="orb ${orbColor}" style="width:480px;height:380px;top:-60px;right:-80px;opacity:0.45;" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="detail-hero-content">
+            <nav class="detail-breadcrumb" aria-label="Breadcrumb">
+              <a href="index.html">Home</a>
+              <span>/</span>
+              <a href="index.html#${item.type === 'project' ? 'projects' : 'research'}">${sectionLabel}</a>
+              <span>/</span>
+              <span>${item.title}</span>
+            </nav>
+
+            <h1 class="detail-title" style="${titleGrad}">${item.title}</h1>
+            <p class="detail-summary">${item.summary}</p>
+
+            <div class="detail-meta">
+              ${item.tags.map(renderTag).join('')}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-body">
+        <div class="container">
+          ${item.sections.map(renderSection).join('')}
+
+          <div class="detail-links reveal">
+            <a href="${backHref}" class="btn btn-secondary">${backArrow} ${backLabel}</a>
+            ${extraLinks}
+          </div>
+        </div>
+      </div>`;
+  })();
+  </script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

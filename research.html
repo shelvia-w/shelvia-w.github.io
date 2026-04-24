@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Shelvia</title>
+  <meta name="description" content="Research directions — AI safety, uncertainty, and decentralized learning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+  <div id="shell-nav"></div>
+  <div id="shell-drawer"></div>
+
+  <!-- Page hero -->
+  <header class="listing-hero">
+    <div class="orb orb-lavender" style="width:600px;height:500px;top:-100px;right:-150px;opacity:0.4;" aria-hidden="true"></div>
+    <div class="orb orb-pink"     style="width:300px;height:300px;bottom:-60px;left:5%;opacity:0.2;"   aria-hidden="true"></div>
+    <div class="container">
+      <div class="listing-hero-content">
+        <p class="section-label">Research</p>
+        <h1 class="listing-title gradient-text">Research Directions</h1>
+        <p class="listing-subtitle">
+          A collection of ongoing and past research directions.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- List -->
+  <section class="section list-section" style="padding-top:2rem;">
+    <div class="container">
+      <div class="item-list" id="research-list" role="list"></div>
+    </div>
+  </section>
+
+  <div id="shell-footer"></div>
+
+  <template id="arrow-svg">
+    <svg class="item-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+      <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </template>
+
+  <script>window.SHELL_BASE = './';</script>
+  <script src="scripts/shell.js"></script>
+  <script src="data/content.js"></script>
+  <script src="scripts/list.js"></script>
+  <script>
+    renderItemList(RESEARCH, 'research-list', 'research');
+  </script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
