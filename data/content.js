@@ -136,14 +136,14 @@ const PROJECTS = [
     id:      'a-to-z-vibes',
     type:    'project',
     image:   'images/projects/vibe-coding.svg',
-    title:   'A-to-Z Vibe Coding',
+    title:   'A to Z Vibe Coding',
     desc:    'A place where I let my creativity run wild through vibe-coded small projects.',
     summary: 'A fun project where I build small, playful, and creative coding experiments one idea at a time, using each piece as a way to explore, learn, and make something interesting.',
     tags:    ['Project', 'Live', 'AI Safety', 'Creativity'],
     sections: [
       {
         heading: 'What is it?',
-        html: `<p>A-to-Z Vibe Coding is a space where I bring my creative ideas to life through mini projects. It features 26 projects, one for each letter of the alphabet, with each title inspired by one of my favorite songs. After completing the initial 26 projects, I will also build four more challenging projects. Each project reflects something personal to me: a memory, an interest, a value, or a part of who I am. Through vibe coding, this project also becomes a way for me to learn how to prompt AI more effectively and explore what I can create with it.</p>`,
+        html: `<p>A to Z Vibe Coding is a space where I bring my creative ideas to life through mini projects. It features 26 projects, one for each letter of the alphabet, with each title inspired by one of my favorite songs. After completing the initial 26 projects, I will also build four more challenging projects. Each project reflects something personal to me: a memory, an interest, a value, or a part of who I am. Through vibe coding, this project also becomes a way for me to learn how to prompt AI more effectively and explore what I can create with it.</p>`,
       },
       {
         heading: 'List of Projects',
@@ -158,7 +158,7 @@ const PROJECTS = [
       },
     ],
     extraLinks: [
-      { label: 'Visit A-to-Z Vibe Coding →', href: 'https://shelvia-w.github.io/a-to-z-vibes/', style: 'primary' },
+      { label: 'Visit A to Z Vibe Coding →', href: 'https://shelvia-w.github.io/a-to-z-vibes/', style: 'primary' },
     ],
   },
 
