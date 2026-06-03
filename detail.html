@@ -148,8 +148,6 @@
     const orbColor  = item.type === 'project' ? 'orb-pink' : 'orb-lavender';
     const backLabel = item.type === 'project' ? 'Back to Projects' : 'Back to Research';
     const backHref  = item.type === 'project' ? 'index.html#projects' : 'index.html#research';
-    const sectionLabel = item.type === 'project' ? 'Projects' : 'Research';
-
     /* ── Extra links ───────────────────────────────────────── */
     const extraLinks = (item.extraLinks || []).map(l => {
       const cls = l.style === 'primary' ? 'btn-primary' : 'btn-secondary';
@@ -169,14 +167,6 @@
 
         <div class="container">
           <div class="detail-hero-content">
-            <nav class="detail-breadcrumb" aria-label="Breadcrumb">
-              <a href="index.html">Home</a>
-              <span>/</span>
-              <a href="index.html#${item.type === 'project' ? 'projects' : 'research'}">${sectionLabel}</a>
-              <span>/</span>
-              <span>${item.title}</span>
-            </nav>
-
             <h1 class="detail-title" style="${titleGrad}">${item.title}</h1>
             <p class="detail-summary">${item.summary}</p>
 
