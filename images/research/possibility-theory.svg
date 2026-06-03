@@ -1,0 +1,84 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#060A1C"/>
+      <stop offset="0.5" stop-color="#101733"/>
+      <stop offset="1" stop-color="#1A0F2E"/>
+    </linearGradient>
+
+    <radialGradient id="leftGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 450) rotate(90) scale(430 430)">
+      <stop offset="0" stop-color="#65F5FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#65F5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="rightGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 450) rotate(90) scale(430 430)">
+      <stop offset="0" stop-color="#FF7BDC" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FF7BDC" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="curveStroke" x1="260" y1="0" x2="1340" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66F4FF"/>
+      <stop offset="0.5" stop-color="#C7B8FF"/>
+      <stop offset="1" stop-color="#FF85E6"/>
+    </linearGradient>
+
+    <linearGradient id="fillGrad" x1="800" y1="220" x2="800" y2="710" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B9C6FF" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#8FCBFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#8FCBFF" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <linearGradient id="axisGrad" x1="260" y1="0" x2="1340" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#63F3FF" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#B7ADFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#FF82E3" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+
+    <filter id="curveGlow" x="180" y="160" width="1240" height="600" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <ellipse cx="360" cy="450" rx="430" ry="430" fill="url(#leftGlow)"/>
+  <ellipse cx="1240" cy="450" rx="430" ry="430" fill="url(#rightGlow)"/>
+
+  <g filter="url(#softBlur)" opacity="0.30">
+    <circle cx="470" cy="260" r="70" fill="#70F6FF"/>
+    <circle cx="1135" cy="280" r="68" fill="#FF86E6"/>
+    <circle cx="800" cy="210" r="38" fill="#CDBBFF"/>
+  </g>
+
+  <path d="M260 710C350 710 420 708 480 700C560 690 615 668 663 611C715 548 750 424 778 284C784 255 791 231 800 231C809 231 816 255 822 284C850 424 885 548 937 611C985 668 1040 690 1120 700C1180 708 1250 710 1340 710"
+        fill="none" stroke="url(#curveStroke)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#curveGlow)"/>
+
+  <path d="M260 710C350 710 420 708 480 700C560 690 615 668 663 611C715 548 750 424 778 284C784 255 791 231 800 231C809 231 816 255 822 284C850 424 885 548 937 611C985 668 1040 690 1120 700C1180 708 1250 710 1340 710L1340 710L260 710Z"
+        fill="url(#fillGrad)"/>
+
+  <rect x="250" y="709" width="1100" height="2.5" rx="1.25" fill="url(#axisGrad)"/>
+
+  <g opacity="0.95">
+    <circle cx="800" cy="231" r="12" fill="#FFF6FF" fill-opacity="0.95"/>
+    <circle cx="800" cy="231" r="26" stroke="#D9C8FF" stroke-opacity="0.35" stroke-width="2.5"/>
+    <circle cx="675" cy="520" r="8" fill="#79F7FF"/>
+    <circle cx="925" cy="520" r="8" fill="#FF8AE8"/>
+    <circle cx="430" cy="710" r="5" fill="#79F7FF" fill-opacity="0.9"/>
+    <circle cx="800" cy="710" r="5.5" fill="#C7B8FF" fill-opacity="0.92"/>
+    <circle cx="1170" cy="710" r="5" fill="#FF8AE8" fill-opacity="0.9"/>
+  </g>
+
+  <g opacity="0.34">
+    <path d="M150 470C198 430 250 414 315 420" stroke="#76F7FF" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M1285 424C1350 416 1402 432 1450 472" stroke="#FF86E7" stroke-width="2.3" stroke-linecap="round"/>
+    <circle cx="166" cy="470" r="50" stroke="#76F7FF" stroke-opacity="0.34" stroke-width="1.6"/>
+    <circle cx="1434" cy="472" r="50" stroke="#FF86E7" stroke-opacity="0.34" stroke-width="1.6"/>
+  </g>
+</svg>

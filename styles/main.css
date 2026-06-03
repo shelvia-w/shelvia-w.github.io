@@ -995,6 +995,28 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
 
 .detail-text strong { color: var(--text-primary); font-weight: 600; }
 
+.detail-numbered-list {
+  padding-left: 1.35rem;
+  margin-top: 0.6rem;
+}
+
+.detail-numbered-list li {
+  margin-bottom: 0.55rem;
+}
+
+.detail-text .detail-link {
+  color: var(--accent-pink);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 63, 164, 0.35);
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.detail-text .detail-link:hover {
+  color: var(--accent-lavender);
+  border-color: var(--accent-lavender);
+}
+
 .detail-links {
   display: flex;
   flex-wrap: wrap;
